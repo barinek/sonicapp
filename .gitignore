@@ -1,0 +1,7 @@
+build
+out
+.idea
+.DS_Store
+.env*
+.postgres
+reports

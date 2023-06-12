@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400&family=Architects+Daughter&display=swap');
+
+
+:root {
+    --white: #FFFFFF;
+    --black: #414141;
+
+    --green: #78D83C;
+    --blue: #3c78d8;
+    --magenta: #D83C78;
+    --lightblue: #f6f8fe;
+}
+
+html {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: var(--black);
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.top-bar {
+    width: 100%;
+    padding: .75rem 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.top-bar h1, .top-bar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.top-bar a.reset {
+    color: var(--black);
+}
+
+.break-words {
+    white-space: pre-line;
+}
+
+main {
+    flex: 1;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+footer {
+    padding: 2rem 0;
+    background-color: var(--black);
+    color: var(--white);
+    line-height: 1.25;
+}
+
+footer a.reset {
+    color: var(--white);
+}
+
+.container {
+    padding: 0 3rem;
+    margin: 0 auto;
+    max-width: 65rem;
+}
+
+a, a:visited, a:link {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: .8rem;
+}
+
+p {
+    line-height: 1.4;
+    font-size: 1.25rem;
+}
+
+p:not(:last-child), ul:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+strong {
+    font-weight: 700;
+}
+
+em {
+    font-style: italic;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+ul li, ol li {
+    list-style: outside;
+    margin-top: .7rem;
+    line-height: 1.3;
+    margin-left: 2rem;
+}
+
+ul li {
+    list-style: disc;
+}
+
+ol li {
+    list-style: decimal;
+}
+
+ul {
+    line-height: 1.4;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem;
+}

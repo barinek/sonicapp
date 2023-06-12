@@ -1,0 +1,10 @@
+{{- template "base" .}}
+{{- define "main"}}
+    {{- $principal := index .Map "principal"}}
+    <section>
+        <div class="container center">
+            <p class="break-words">Nice work, you're in!
+                {{$principal}}</p>
+        </div>
+    </section>
+{{- end}}
